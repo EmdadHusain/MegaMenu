@@ -55,7 +55,7 @@ ul {
   background: #30bae7;
 }
 .main-menu ul ul ul {
-  background: #16a085f2;
+  background: #0a6554c2;
 }
 
 /* Dropdown Hover */
@@ -68,26 +68,23 @@ ul {
   transition: 0.3s;
   margin-top: 0;
 }
-
 .main-menu ul li:hover {
-  background: #19a57759;
+  background: #119ecafc;
 }
+
 .main-menu ul ul > li:hover {
   background: #29849f91;
 }
-.main-menu ul li:hover > a {
-  color: #1c0d0b;
-}
-.main-menu ul ul li:hover > a {
-  color: #24147699;
-}
+
+
 .main-menu ul ul ul li:hover > a {
   color: blue;
 }
 
 .main-menu ul ul ul > li:hover {
-  background: #8fdd9a;
+  background: #45a90cd6;
 }
+
 
 /* mega_menu */
 .main-menu li.mega-menu-li {
@@ -96,7 +93,7 @@ ul {
 .mega_menu {
   position: absolute;
   left: 0;
-  top: 47px;
+  top: 46px;
   width: 100%;
   background: #00805c85;
   text-align: left;
@@ -107,8 +104,6 @@ ul {
 }
 
 .main-menu .mega_menu ul {
-  opacity: 1;
-  visibility: visible;
   text-align: left;
   position: unset;
   margin-top: 0;
@@ -122,9 +117,7 @@ ul {
   font-size: 24px;
   padding-left: 10px;
 }
-/* .mega_img {
-  background: url(../img/Camera.PNG) no-repeat center/cover;
-} */
+
 .mega_img::before {
   position: absolute;
   left: 0;
@@ -137,7 +130,7 @@ ul {
   background-size: cover;
 }
 
-.mega-menu-li:hover .mega_menu {
+.mega-menu-li:hover .mega_menu,.mega-menu-li:hover .mega_menu ul {
   opacity: 1;
   visibility: visible;
   transition: 0.1s;
