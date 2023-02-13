@@ -55,7 +55,7 @@ ul {
   background: #30bae7;
 }
 .main-menu ul ul ul {
-  background: #0ea4c7d1;
+  background: #0a6554c2;
 }
 
 /* Dropdown Hover */
@@ -81,13 +81,15 @@ ul {
   color: blue;
 }
 
-.main-menu ul ul ul  li:hover {
-  background: #2d5ef063;
+.main-menu ul ul ul > li:hover {
+  background: #45a90cd6;
 }
 
 
 /* mega_menu */
-
+.main-menu li.mega-menu-li {
+  position: unset;
+}
 .mega_menu {
   position: absolute;
   left: 0;
@@ -99,7 +101,7 @@ ul {
   padding: 45px 35px 25px;
   opacity: 0;
   visibility: hidden;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .main-menu .mega_menu ul {
@@ -113,7 +115,7 @@ ul {
   color: #fff;
 }
 .mega_menu h3 {
-  font-size: 22px;
+  font-size: 24px;
   padding-left: 10px;
 }
 
@@ -127,27 +129,11 @@ ul {
   background-image: url('Img/bag.jpg');
   background-position: center;
   background-size: cover;
-  transition: .5s;
-  border-radius: 2px;
-}
-.mega_img:hover::before {
-  transform: scale(1.04);
-   box-shadow: 10px 10px 18px #19adb29e;
 }
 
 .mega-menu-li:hover .mega_menu,.mega-menu-li:hover .mega_menu ul {
   opacity: 1;
   visibility: visible;
-  transition: 0.2s;
+  transition: 0.3s;
   margin-top: 0;
 }
-.mega_menu {
-  position: absolute;
-  left: -25%;
-  width: 125%;
-}
-
-
-
-
-
