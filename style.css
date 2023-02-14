@@ -65,7 +65,7 @@ ul {
 .main-menu li:hover > ul {
   opacity: 1;
   visibility: visible;
-  transition: 0.3s;
+  transition: 0.3s all ease;
   margin-top: 0;
 }
 .main-menu ul li:hover {
@@ -134,6 +134,6 @@ ul {
 .mega-menu-li:hover .mega_menu,.mega-menu-li:hover .mega_menu ul {
   opacity: 1;
   visibility: visible;
-  transition: 0.3s;
+  transition: 0.3s all ease;
   margin-top: 0;
 }
