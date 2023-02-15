@@ -63,8 +63,8 @@ ul {
 }
 
 /* Dropdown Hover */
-.main-menu > li:hover {
-  background: #10dd565e;
+.main-menu > li:hover > a {
+	background: #a7df43ed;
 }
 .main-menu li:hover > ul {
   opacity: 1;
@@ -72,11 +72,11 @@ ul {
   transition: 0.3s all ease;
   margin-top: 0;
 }
-.main-menu ul li:hover {
+.main-menu ul li:hover > a {
   background: #119ecafc;
 }
 
-.main-menu ul ul > li:hover {
+.main-menu ul ul > li:hover > a {
   background: #29849f91;
 }
 
@@ -85,8 +85,15 @@ ul {
   color: blue;
 }
 
-.main-menu ul ul ul > li:hover {
+.main-menu ul ul ul > li:hover > a {
   background: #45a90cd6;
+}
+
+.main-menu .mobile_item {
+  display: none;
+}
+.main-menu #showDrop,.main-menu #showDrop2 {
+  display: none;
 }
 
 
