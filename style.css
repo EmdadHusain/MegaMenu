@@ -27,11 +27,15 @@ ul {
 }
 
 .main-menu li {
-  padding: 5px 10px;
   transition: 0.1s;
 }
 .main-menu ul li {
   position: relative;
+}
+
+.main-menu li a {
+  padding: 5px 10px;
+  display: block;
 }
 .main-menu ul {
   width: 180px;
