@@ -91,9 +91,11 @@
 	background: #286dc5c4;
 }
 .mega_menu {
-	
 	top: 99999999px;
-	
+}
+.main-menu .mobile_item i {
+	margin-right: 3px;
+	display: inline-block;
 }
 
     
