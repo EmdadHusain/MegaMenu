@@ -90,12 +90,27 @@
 .main-menu ul ul > li:hover > a {
 	background: #286dc5c4;
 }
-.mega_menu {
-	top: 99999999px;
-}
+
 .main-menu .mobile_item i {
-	margin-right: 3px;
+	margin-right: 4px;
 	display: inline-block;
+}
+.main-menu .mega_menu {
+	position: static;
+	opacity: 1;
+	visibility: visible;
+    margin-top: 0;
+    display: none;  
+    padding: 25px 35px 25px;
+}
+.main-menu .mega_menu ul {
+	background: none;
+	display: block;
+	max-height: none;
+}
+#show_mega:checked ~ div.mega_menu{
+    display: block;
+    margin-top: -10px;
 }
 
     
