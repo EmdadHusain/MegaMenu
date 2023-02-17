@@ -3,14 +3,15 @@
         text-align: left;
         margin-top: 0;
         position: fixed;
-        left: 0;
+        left:-100%;
         top: 0;
         width: 100%;
         max-width: 380px;
         background: #1686ca;
         height: 100vh;
-        padding: 20px;
+        padding: 80px 20px 20px 30px;
         overflow-y: auto;
+        transition: all .3s ease;
     }
     .main-menu li {
         transition: 0.1s;
@@ -22,6 +23,7 @@
        display: block;
        color: #fff;
        padding: 5px 10px 5px 20px;
+       border-left: 3px solid transparent;
     }
     .main-menu ul {
         width: 100%;
@@ -45,11 +47,15 @@
     .main-menu ul li {
         margin-bottom: 0;
     }
-    .main-menu .mobile_item {
+    nav .mobile_item {
         color: #fff;
         display: block;
         margin-bottom: 10px;
         padding: 5px 10px 5px 20px;
+        border-left: 3px solid transparent;
+    }
+    nav .mobile_item.menu_btn {
+        color:#333;
     }
 
     
@@ -57,9 +63,11 @@
     .main-menu .mobile_item:hover {
         background: #5f0aa675;
         transition: .3s;
+        border-left-color: #0004ffba;
     }
      .main-menu ul .mobile_item:hover {
         background: #119ecafc;
+        border-left: 3px solid aqua;
     }
     .main-menu ul .mobile_item {
         margin-bottom: 0;
@@ -86,9 +94,14 @@
 /* hover */
 .main-menu > li:hover > a {
     background: #5f0aa675;
+    border-left-color: #0004ffba;
   }
+  .main-menu ul li:hover > a {
+	border-left: 3px solid aqua;
+}
 .main-menu ul ul > li:hover > a {
-	background: #286dc5c4;
+    background: #0ba4d291;
+	border-left: 3px solid aqua;
 }
 
 .main-menu .mobile_item i {
@@ -122,6 +135,24 @@
     width:0px;
     color:red;
 } */
+.main-menu .btn {
+   display: block;
+  }
+  .main-menu .btn.cancel_btn {
+    position: absolute;
+    right: 4px;
+    top: 6px;
+  }
+  #menuBtn:checked ~ .main-menu{
+      left:0%;
+  }
+  
+  #cancelBtn:checked ~ .main-menu{
+      left : -100%;
+  }
+  /* #cancelBtn:checked ~ .main-menu{
+      left:-100%;
+  } */
 
     
 }

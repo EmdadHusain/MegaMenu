@@ -25,6 +25,13 @@ ul {
   margin-right: 40px;
   margin-top: 9px;
 }
+.main-menu .btn {
+  cursor: pointer;
+  font-size: 21px;
+  color: #fff;
+  display: none;
+}
+
 
 .main-menu li {
   transition: 0.1s;
@@ -89,13 +96,17 @@ ul {
   background: #45a90cd6;
 }
 
-.main-menu .mobile_item {
+nav .mobile_item {
   display: none;
 }
-.main-menu #showDrop,.main-menu #showDrop2 {
+.main-menu #showDrop,.main-menu #showDrop2,.main-menu #show_mega,nav #menuBtn,nav #cancelBtn  {
   display: none;
 }
-
+nav .btn.menu_btn {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
 
 /* mega_menu */
 .main-menu li.mega-menu-li {
