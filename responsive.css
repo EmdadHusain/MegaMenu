@@ -1,3 +1,9 @@
+@media only screen and (max-width:1100px){
+    .mega_menu {
+        left: 0;
+        width: 100%;
+    }
+}
 @media only screen and (max-width:991px){
     .main-menu {
         text-align: left;
@@ -97,6 +103,9 @@
     background: #6108ac45;
     border-left-color: #0004ffba;
   }
+  .main-menu ul li:hover > a {
+	background: #0fb4e8cf;
+}
   .main-menu ul li:hover > a {
 	border-left: 3px solid aqua;
 }
