@@ -114,9 +114,9 @@ nav .btn.menu_btn {
 }
 .mega_menu {
   position: fixed;
-  left: 5%;
+  left: 10%;
   top: 46px;
-  width: 90%;
+  width: 80%;
   background: #08aabbe3;
   text-align: left;
   color: #fff;
