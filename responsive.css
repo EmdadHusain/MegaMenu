@@ -9,7 +9,7 @@
         max-width: 380px;
         background: #1686ca;
         height: 100vh;
-        padding: 80px 20px 20px 30px;
+        padding: 80px 0px 20px 30px;
         overflow-y: auto;
         transition: all .3s ease;
     }
@@ -23,6 +23,7 @@
        display: block;
        color: #fff;
        padding: 5px 10px 5px 20px;
+       transition: .2s;
        border-left: 3px solid transparent;
     }
     .main-menu ul {
@@ -61,7 +62,7 @@
     
     
     .main-menu .mobile_item:hover {
-        background: #5f0aa675;
+        background: #6108ac45;
         transition: .3s;
         border-left-color: #0004ffba;
     }
@@ -93,7 +94,7 @@
     
 /* hover */
 .main-menu > li:hover > a {
-    background: #5f0aa675;
+    background: #6108ac45;
     border-left-color: #0004ffba;
   }
   .main-menu ul li:hover > a {
@@ -105,8 +106,12 @@
 }
 
 .main-menu .mobile_item i {
-	margin-right: 4px;
-	display: inline-block;
+	position: absolute;
+	right: 20px;
+	margin-top: 5px;
+}
+.main-menu ul .mobile_item i {
+	right: 48px;
 }
 .main-menu .mega_menu {
 	position: static;
@@ -155,4 +160,9 @@
   } */
 
     
+}
+@media only screen and (max-width:400px){
+    .main-menu {
+        padding: 80px 0px 20px 10px;
+    }
 }
