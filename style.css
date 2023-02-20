@@ -93,8 +93,8 @@ ul {
 }
 
 .main-menu ul ul ul > li:hover > a {
-  background: #00ffffa1;
-  color: #fff;
+	background: #0ba4d291;
+	color: #fff;
 }
 
 nav .mobile_item {
