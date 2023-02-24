@@ -193,6 +193,9 @@
   /* #cancelBtn:checked ~ .main-menu{
       left:-100%;
   } */
+  .mega_menu .row > .col-lg-9 {
+	padding-left: 0;
+}
 
     
 }

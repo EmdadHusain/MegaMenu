@@ -124,6 +124,9 @@ nav .btn.menu_btn {
   visibility: hidden;
   margin-top: 25px;
 }
+.mega_menu .row > .col-lg-9 {
+	padding-left: 44px;
+}
 
 .main-menu .mega_menu ul {
   text-align: left;
