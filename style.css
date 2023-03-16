@@ -14,6 +14,15 @@ ul {
   padding: 0;
   list-style: none;
 }
+.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	background: #18d7bc1c;
+	top: 0;
+	transition: 1.5s;
+	z-index: 99;
+}
 
 /* Dropdown */
 .main-menu > li {

@@ -22,7 +22,7 @@
         text-align: left;
         margin-top: 0;
         position: fixed;
-        left:-100%;
+        left:100%;
         top: 0;
         width: 100%;
         max-width: 380px;
@@ -184,11 +184,12 @@
     top: 6px;
   }
   #menuBtn:checked ~ .main-menu{
-      left:0%;
+      left:0;
+      
   }
   
   #cancelBtn:checked ~ .main-menu{
-      left : -100%;
+      left:-100%;
   }
   /* #cancelBtn:checked ~ .main-menu{
       left:-100%;
